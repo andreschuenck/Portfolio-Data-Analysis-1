@@ -1,5 +1,14 @@
+import matplotlib.pyplot as plt
+
+# Adiciona 'matplotlib' à lista de bibliotecas necessárias
+required_libraries.append('matplotlib')
+
 import subprocess
 import sys
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import scipy
 
 # Lista das bibliotecas necessárias
 required_libraries = [
